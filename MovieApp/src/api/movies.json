@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Sonic the Hedgehog",
+      "rating": 9.5,
+      "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Brazen",
+      "rating": 6.7,
+      "overview": "Mystery writer Grace Miller has killer instincts when it comes to motive - and she'll need every bit of expertise to help solve her sister's murder.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7e4n1GfC9iky9VQzH3cDQz9wYpO.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Riverdale",
+      "rating": 8.2,
+      "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/kzZUa05wZOEiC2UVuJA2T8VrETU.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Batman",
+      "rating": 9.2,
+      "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Spider-Man: No Way Home",
+      "rating": 9.6,
+      "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Moon Knight",
+      "rating": 9.1,
+      "overview": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9rJoulDnFeVGXcUsN7CjllUWADA.jpg"
+    },
+    {
+      "name": "Need for Speed",
+      "rating": "7.9",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/z42kyMizgDKetejusZgucSQsQ4l.jpg",
+      "overview": "The film revolves around a local street-racer who partners with a rich and arrogant business associate, only to find himself framed by his colleague and sent to prison. After he gets out, he joins a New York-to-Los Angeles race to get revenge. But when the ex-partner learns of the scheme, he puts a massive bounty on the racer's head, forcing him to run a cross-country gauntlet of illegal racers in all manner of supercharged vehicles.",
+      "id": 7
+    },
+    {
+      "name": "Transporter 3",
+      "rating": "7.6",
+      "imageUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ngpLhUccj6mlvAVpiIa7jUcFxhT.jpg",
+      "overview": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukranian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+      "id": 8
+    }
+  ]
+}
