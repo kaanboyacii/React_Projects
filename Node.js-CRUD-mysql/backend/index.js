@@ -1,7 +1,10 @@
 import express from "express";
 import mysql from "mysql";
+import cors from "cors";
 
 const app = express()
+app.use(express.json());
+app.use(cors());
 
 const db = mysql.createConnection({
     host: "localhost",
@@ -9,8 +12,7 @@ const db = mysql.createConnection({
     password: "",
     database: "node-crud"
 });
-
-app.use(express.json());
+;
 
 app.get("/", (req, res) => {
     res.json("hello");
