@@ -12,6 +12,9 @@ const Register = () => {
   const handleChange = e =>{
     setInputs(prev=>({...prev, [e.target.name]: e.target.value}))
   }
+  const handleSubmit = e =>{
+    e.preventDefault()
+  }
 
   console.log(inputs);
 
@@ -22,7 +25,7 @@ const Register = () => {
         <input required type="text" placeholder='username' name='username' onChange={handleChange} />
         <input required type="email" placeholder='email' name='email' onChange={handleChange}/>
         <input required type="password" placeholder='password' name='password' onChange={handleChange}/>
-        <button>Register</button>
+        <button onClick={handleSubmit} >Register</button>
         <p>This is an error!</p>
         <span>I already have an account <Link to="/login">Login</Link>
         </span>
