@@ -66,3 +66,60 @@
     margin-top: 10px;
   }
 }
+
+.home {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+    .sidebar {
+      flex: 1;
+      background-color: #3e3c61;
+      position: relative;
+      .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #2f2d52;
+        height: 50px;
+        padding: 10px;
+        justify-content: space-between;
+        color: #ddddf7;
+
+        .logo{
+          font-weight: bold;
+        }
+        .user{
+          display: flex;
+          gap: 10px;
+          img{
+            background-color: #ddddf7;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          button{
+            background-color: #5d5b8d;
+            color: #ddddf7;
+            font-size: 10px;
+            border: none;
+            cursor: pointer;
+          }
+        }
+
+      }
+    }
+    .chat {
+      flex: 2;
+    }
+  }
+}
