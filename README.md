@@ -1,15 +1,7 @@
 # React_Projects
-![Ekran Alıntısı](https://user-images.githubusercontent.com/98668706/222960853-cc27d70f-1f56-437f-92e4-c85f6b5ac52e.PNG)
+Large and small projects that I have done using React technology and different frameworks and programming languages are included here.
+There are necessary explanations in each project, you can examine it as you wish.
 
-React Calculator Project
+React is a popular JavaScript library for building modern web applications. It's not just powerful and performant, but it's also incredibly flexible and easy to use. With its reusable components and intuitive syntax, React makes it a breeze to create dynamic, interactive interfaces that engage your users and keep them coming back for more. Whether you're building a simple website or a complex web application, React is the perfect choice for bringing your ideas to life. So why not give it a try and see what kind of sweet things you can create with React?
 
-This project is created to develop a simple calculator application using React. Users can perform addition, subtraction, multiplication, and division operations.
-Usage
-
-The project requires Node.js and NPM installation. It also includes a few packages that need to be installed for React applications. After downloading the project files, you can install the required packages by typing the npm install command in the terminal.
-
-To run the application, use the npm start command in the terminal. The application runs by default at http://localhost:3000.
-
-Contribution
-
-This project is open-source and contributions are welcome. Feel free to fork the project, make changes, and submit a pull request.
+![index](https://user-images.githubusercontent.com/98668706/222961515-8a668d89-00db-408c-b506-452c8d87b86b.png)
