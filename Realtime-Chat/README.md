@@ -8,21 +8,21 @@ Installation
 
 #### Clone this project:
 
-git clone https://github.com/kaanboyacii/React_Projects.git
+    git clone https://github.com/kaanboyacii/React_Projects.git
 
 #### Navigate to the cloned directory:
 
-cd real-time-chat
+    cd real-time-chat
 
 #### Install the necessary dependencies:
 
-npm install
+    npm install
 
 #### Start the application:
 
     npm start
 
-    Navigate to http://localhost:3000 in your browser.
+Navigate to http://localhost:3000 in your browser.
 
 Usage
 
