@@ -2,28 +2,23 @@
 
 Real-Time Chat Application
 
-This project is a real-time chat application built using React. Users can chat in real-time and receive notifications when new users log in or log out. The application uses the WebSocket protocol to provide real-time communication.
+This project is a real-time chat application built using React and Firebase. Users can chat in real-time and receive notifications when new users log in or log out. The application uses Firebase Realtime Database and Authentication to provide real-time communication and user authentication.
+
 Installation
 
-   #### h4 başlığı Clone this project:
-
-    bash
+#### Clone this project:
 
 git clone https://github.com/kaanboyacii/React_Projects.git
 
-#### h4 başlığı Navigate to the cloned directory:
-
-sql
+#### Navigate to the cloned directory:
 
 cd real-time-chat
 
-#### h4 başlığı Install the necessary dependencies:
+#### Install the necessary dependencies:
 
 npm install
 
-#### h4 başlığı Start the application:
-
-sql
+#### Start the application:
 
     npm start
 
