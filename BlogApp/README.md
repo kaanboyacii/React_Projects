@@ -1,8 +1,8 @@
-![Ekran Alıntısı](https://user-images.githubusercontent.com/98668706/224005383-c7fdae6c-b8d0-45c0-839d-fb23f3092df9.PNG)
+![Screenshot 2023-03-11 at 11-02-09 React App](https://user-images.githubusercontent.com/98668706/224472793-0614f87c-b7c0-4e71-b076-8efb984128ab.png)
 
-Real-Time Chat Application
+Blog Application
 
-This project is a real-time chat application built using React and Firebase. Users can chat in real-time and receive notifications when new users log in or log out. The application uses Firebase Realtime Database and Authentication to provide real-time communication and user authentication.
+This project is a real-time chat application built using React.
 
 Installation
 
