@@ -19,7 +19,25 @@
   justify-content: center;
 }
 .moneyList {
-    padding: 20px;
-    list-style: none;
-    width: 100%;
-  }
+  padding: 20px;
+  list-style: none;
+  width: 100%;
+}
+.moneyListItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.moneyListItem.active {
+  background-color: teal;
+}
+.moneyListItemNumber {
+  width: 30%;
+  font-size: 18px;
+  font-weight: 100;
+}
+.moneyListItemAmount {
+  font-size: 20px;
+  font-weight: 300;
+}
