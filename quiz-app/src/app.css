@@ -41,3 +41,24 @@
   font-size: 20px;
   font-weight: 300;
 }
+.top {
+  height: 50%;
+  position: relative;
+}
+.timer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.bottom {
+  height: 50%;
+}
