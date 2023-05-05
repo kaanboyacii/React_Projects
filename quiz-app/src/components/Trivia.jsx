@@ -5,9 +5,9 @@ export default function Trivia() {
         <div className="question">What's the best football club in Turkey ?</div>
         <div className="answers">
             <div className="answer correct">Galatasaray</div>
-            <div className="answer correct">Beşiktaş</div>
-            <div className="answer correct">Fenerbahçe</div>
-            <div className="answer correct">TrabzonSpor</div>
+            <div className="answer">Beşiktaş</div>
+            <div className="answer">Fenerbahçe</div>
+            <div className="answer">TrabzonSpor</div>
         </div>
     </div>
   )
