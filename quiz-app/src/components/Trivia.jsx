@@ -6,18 +6,31 @@ export default function Trivia({
   setQuestionNumber,
   questionNumber,
 }) {
-  const [question,setQuestion]=useState(null);
-  useEffect(()=>{
-    setQuestion(data[questionNumber - 1])
-  },[data,questionNumber])
+  const [question, setQuestion] = useState(null);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [className, setClassName] = useState("answer");
+
+  useEffect(() => {
+    setQuestion(data[questionNumber - 1]);
+  }, [data, questionNumber]);
+
+  const handleClick = (a) =>{
+    setSelectedAnswer(a);
+    setClassName("answer active")
+  }
+
   return (
     <div className="trivia">
-      <div className="question">What's the best football club in Turkey ?</div>
+      <div className="question">{question?.question}</div>
       <div className="answers">
-        <div className="answer correct">Galatasaray</div>
-        <div className="answer">Beşiktaş</div>
-        <div className="answer">Fenerbahçe</div>
-        <div className="answer">TrabzonSpor</div>
+        {question?.answers.map((a) => (
+          <div
+            className={selectedAnswer === a ? className : "answer"}
+            onClick={() => !selectedAnswer && handleClick(a)}
+          >
+            {a.text}
+          </div>
+        ))}
       </div>
     </div>
   );
