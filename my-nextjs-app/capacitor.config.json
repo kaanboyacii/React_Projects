@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.app",
+  "appName": "my-nextjs-app",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  }
+}
